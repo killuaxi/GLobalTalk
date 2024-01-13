@@ -90,9 +90,17 @@ font-weight: 600;
 line-height: 140%; /* 19.6px */
 letter-spacing: -0.56px;
     }
+    img {
+        width: 300px;
+        height: 250px;
+    }
+
     }
 
     @media screen and (max-width:600px) {
+        body {
+            /* overflow-y: hidden; */
+        }
         .burger {
             display: flex;
             justify-content: end;
